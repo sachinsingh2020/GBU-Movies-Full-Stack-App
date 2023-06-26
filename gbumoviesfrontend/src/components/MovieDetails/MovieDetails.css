@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.movieDetailBox{
+    font-family: 'Stylish', sans-serif;
+}
+
+.download-button:hover {
+    background-color: #377f7e;
+  }
+  hr {
+    border: 3px solid #377f7e;
+    width: 100%;
+}

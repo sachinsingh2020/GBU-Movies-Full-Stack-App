@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.fullNavSection {
+    background-color: #36363b;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    /* border-right: 3px solid #007bff;
+    border-left: 3px solid #007bff;
+    border-bottom: 3px solid #007bff; */
+}
+
+.logo h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #19c37d;
+    font-family: 'Stylish', sans-serif;
+    border-bottom: 4px solid #19c37d;
+}
+
+
+
+.searchSection {
+    display: flex;
+    align-items: center;
+}
+
+.searchSection input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 17rem;
+    outline: none;
+}
+
+.searchSection input[type="search"]::placeholder {
+    color: #999;
+}
+
+.searchSection button {
+    padding: 10px;
+    background-color: #19c37d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.searchSection button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.movieIndustry {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-grad2 {
+    background-image: linear-gradient(to right, #ff0084 0%, #33001b 51%, #ff0084 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo h2 {
+        margin: 1rem 0;
+    }
+
+    .movieIndustry {
+        flex-direction: column;
+    }
+
+    .searchSection input[type="search"] {
+        width: 15rem;
+    }
+}
+
+.btn-grad3 {
+    background-image: linear-gradient(to right, #1e3c72 0%, #2a5298 51%, #1e3c72 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad3:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad4 {
+    background-image: linear-gradient(to right, #F00000 0%, #DC281E 51%, #F00000 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-grad5 {
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad5:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-grad6 {
+    background-image: linear-gradient(to right, #4568DC 0%, #B06AB3 51%, #4568DC 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad6:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-grad7 {
+    background-image: linear-gradient(to right, #000000 0%, #0f9b0f 51%, #000000 100%) !important;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold !important;
+    font-size: 12px;
+}
+
+.btn-grad7:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,8 +1,14 @@
-# 🎬 GBU Movies - MERN Stack Movie App
+
+# 🎬 GBU Movies - MERN Stack Movie App  
+
+![GBU Movies Screenshot](./screenshot.png)  
 
 A **MERN stack** application where users can search, filter, and download movies. The app includes **user authentication, pagination, RESTful API, and more!**  
 
+---
+
 ## 🚀 Features  
+
 ✅ **Search Movies** – Find your favorite movies easily.  
 ✅ **Download Movies** – Users can download available movies.  
 ✅ **Filtering & Pagination** – Browse movies efficiently.  
@@ -17,6 +23,7 @@ A **MERN stack** application where users can search, filter, and download movies
 /GBUMovies
 │── /gbumoviesfrontend   # React Frontend
 │── /gbumoviesbackend    # Node.js Backend
+│── /assets              # (Optional) Store screenshots/images
 ```
 
 ---
@@ -73,4 +80,19 @@ After running both frontend and backend, visit:
 
 ---
 
+## 📷 Screenshot  
+
+If your screenshot is stored in an `assets` folder, update the image path like this:  
+
+```md
+![GBU Movies Screenshot](./assets/screenshot.png)
+```
+
+Or, upload the screenshot to an online hosting service and use the URL:  
+
+```md
+![GBU Movies Screenshot](https://your-image-url.com/screenshot.png)
+```
+
+---
 

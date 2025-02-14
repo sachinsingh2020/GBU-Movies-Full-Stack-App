@@ -1,7 +1,3 @@
-Here’s a well-structured **README.md** file for your MERN stack movie application:  
-
----
-
 # 🎬 GBU Movies - MERN Stack Movie App
 
 A **MERN stack** application where users can search, filter, and download movies. The app includes **user authentication, pagination, RESTful API, and more!**  
@@ -77,15 +73,8 @@ After running both frontend and backend, visit:
 
 ---
 
-## 🌟 Contributing  
 
-Feel free to fork the repository, create a new branch, and submit a pull request.  
 
----
-
-## 📜 License  
-
-This project is **open-source** and available under the **MIT License**.  
 
 ---
 

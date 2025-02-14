@@ -74,8 +74,3 @@ After running both frontend and backend, visit:
 ---
 
 
-
-
----
-
-Would you like any modifications or additions to this README? 🚀

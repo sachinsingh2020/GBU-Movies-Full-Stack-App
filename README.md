@@ -8,6 +8,15 @@ A **MERN stack** application where users can search, filter, and download movies
 
 ---
 
+## 📌 Technologies Used  
+
+- **Frontend:** React.js, Redux, Tailwind CSS  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Authentication:** JWT (JSON Web Token)  
+- **Other:** REST API, Pagination, Filtering  
+
+---
+
 ## 🚀 Features  
 
 ✅ **Search Movies** – Find your favorite movies easily.  
@@ -72,13 +81,6 @@ After running both frontend and backend, visit:
 
 ---
 
-## 📌 Technologies Used  
 
-- **Frontend:** React.js, Redux, Tailwind CSS  
-- **Backend:** Node.js, Express.js, MongoDB  
-- **Authentication:** JWT (JSON Web Token)  
-- **Other:** REST API, Pagination, Filtering  
-
----
 
 

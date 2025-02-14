@@ -1,7 +1,8 @@
 
 # 🎬 GBU Movies - MERN Stack Movie App  
 
-![GBU Movies Screenshot](./screenshot.png)  
+
+![AuthGuard Screenshot](https://res.cloudinary.com/dls2tnwrx/image/upload/v1739529789/Screenshot_2025-02-14_161248_kyphka.png)  
 
 A **MERN stack** application where users can search, filter, and download movies. The app includes **user authentication, pagination, RESTful API, and more!**  
 
@@ -80,19 +81,4 @@ After running both frontend and backend, visit:
 
 ---
 
-## 📷 Screenshot  
-
-If your screenshot is stored in an `assets` folder, update the image path like this:  
-
-```md
-![GBU Movies Screenshot](./assets/screenshot.png)
-```
-
-Or, upload the screenshot to an online hosting service and use the URL:  
-
-```md
-![GBU Movies Screenshot](https://your-image-url.com/screenshot.png)
-```
-
----
 
